@@ -31,7 +31,4 @@ def get_data_from_csv_file(csv_filename: str):
             _create_db_record(row.split(","))
         # TODO: "mixi, Inc" resolve
 
-def asd(name):
-    for r in _csv_reader(name):
-        print(int(r.split(",")[3]))
         
